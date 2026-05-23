@@ -1,0 +1,136 @@
+aid: geo-group
+name: The GEO Group
+description: >-
+  The GEO Group, Inc. (NYSE: GEO) is a publicly traded private corrections and
+  community supervision company headquartered in Boca Raton, Florida. Founded
+  in 1984 as Wackenhut Corrections Corporation and rebranded in 2004, it is the
+  largest private prison operator in the United States and a primary
+  contractor to U.S. Immigration and Customs Enforcement (ICE), the U.S.
+  Marshals Service, the Federal Bureau of Prisons, and numerous state
+  departments of corrections. As of 2024 the company owned or managed
+  approximately 80,000 beds across roughly 99 facilities and reported
+  $2.424 billion in revenue. Its wholly owned subsidiary BI Incorporated
+  operates the federal Intensive Supervision Appearance Program (ISAP) and
+  builds the ankle monitors, GPS trackers, voice-verification systems and
+  SmartLINK smartphone app used to monitor people in immigration proceedings
+  and community supervision. GEO Group publishes no public developer API and
+  has no GitHub presence; the only "platform" surfaces it exposes are
+  customer-facing operational systems (BI TotalAccess for officers, BI
+  SmartLINK for supervised individuals) used inside its own contracts. This
+  repository documents the corporate footprint, the technology subsidiary,
+  and the public-record controversies surrounding the firm under the second
+  Trump administration's 2025+ ICE detention expansion, for purposes of the
+  API Evangelist network's coverage of API absence in sensitive sectors.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2026-05-23'
+modified: '2026-05-23'
+position: Consumer
+tags:
+  - Corrections
+  - Private Prisons
+  - Immigration Detention
+  - Electronic Monitoring
+  - Surveillance
+  - Public Company
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/geo-group/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: geo-group:geo-secure-services
+    name: GEO Secure Services
+    humanURL: https://www.geogroup.com
+    description: >-
+      GEO Secure Services designs, builds, finances and operates secure
+      correctional and ICE detention facilities under contracts with federal,
+      state and international government agencies. No public developer API,
+      OpenAPI spec, data feed, or inmate-locator API is published; all
+      facility-level information flows are private contract integrations with
+      the contracting agency.
+    tags:
+      - Corrections
+      - Private Prisons
+      - Immigration Detention
+    properties:
+      - type: Website
+        url: https://www.geogroup.com
+      - type: Documentation
+        url: https://www.geogroup.com/About-Us
+      - type: Customers
+        url: https://www.geogroup.com/Services
+  - aid: geo-group:geo-care
+    name: GEO Care
+    humanURL: https://www.geogroup.com
+    description: >-
+      GEO Care delivers community-based reentry, residential treatment,
+      cognitive behavioral programming, substance-abuse treatment and
+      non-residential supervision through GEO Reentry Services and partner
+      facilities. Reported scale on the corporate website is roughly 31,500
+      daily participants in evidence-based programs. No public developer API
+      is published.
+    tags:
+      - Corrections
+      - Reentry
+      - Behavioral Health
+    properties:
+      - type: Website
+        url: https://www.geogroup.com
+      - type: Documentation
+        url: https://www.geogroup.com/Services
+  - aid: geo-group:geo-transport
+    name: GEO Transport
+    humanURL: https://www.geogroup.com
+    description: >-
+      GEO Transport Inc. provides secure transportation services for detainees
+      and inmates between facilities, courts and removal flights, primarily
+      under federal contract. No public developer API is published.
+    tags:
+      - Corrections
+      - Transportation
+    properties:
+      - type: Website
+        url: https://www.geogroup.com
+  - aid: geo-group:bi-incorporated
+    name: BI Incorporated
+    humanURL: https://bi.com
+    description: >-
+      BI Incorporated, acquired by GEO Group in 2011, is the technology
+      subsidiary that builds and operates the electronic monitoring stack used
+      across community supervision and ICE's Intensive Supervision Appearance
+      Program (ISAP). Product line includes BI VeriWatch 2 (wrist-worn GPS),
+      BI SmartLINK (smartphone monitoring app with facial-recognition
+      check-in), BI SmartBAND 1.0 (Bluetooth Low Energy wearable paired with
+      SmartLINK), BI HomeGuard 20|20 (RF home monitoring), BI SoberTech
+      (handheld breathalyzer), BI TotalAccess (officer case-management
+      platform consolidating monitoring data), and BI Agency Assist
+      (centralized administrative support for probation and parole agencies).
+      None of these products expose a documented public developer API; data
+      flows are private integrations with the contracting government
+      supervision agency.
+    tags:
+      - Electronic Monitoring
+      - GPS Tracking
+      - Surveillance
+      - Immigration
+    properties:
+      - type: Website
+        url: https://bi.com
+      - type: APIReference
+        url: https://bi.com
+      - type: Documentation
+        url: https://bi.com
+common:
+  - type: Website
+    url: https://www.geogroup.com
+  - type: Customers
+    url: https://www.geogroup.com/Services
+  - type: Careers
+    url: https://www.geogroup.com/Careers
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/the-geo-group-inc-
+  - type: Newsroom
+    url: https://www.geogroup.com/Newsroom
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
