@@ -121,6 +121,8 @@ apis:
       - type: Documentation
         url: https://bi.com
 common:
+  - type: DomainSecurity
+    url: security/geo-group-domain-security.yml
   - type: Website
     url: https://www.geogroup.com
   - type: Customers
@@ -131,6 +133,8 @@ common:
     url: https://www.linkedin.com/company/the-geo-group-inc-
   - type: Newsroom
     url: https://www.geogroup.com/Newsroom
+  - type: Blog
+    url: https://www.geogroup.com/geo-news/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
