@@ -22,10 +22,21 @@ description: >-
   Trump administration's 2025+ ICE detention expansion, for purposes of the
   API Evangelist network's coverage of API absence in sensitive sectors.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geo-group.png
 access: 3rd-Party
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 position: Consumer
 tags:
   - Corrections
@@ -38,59 +49,6 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/geo-group/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
-  - aid: geo-group:geo-secure-services
-    name: GEO Secure Services
-    humanURL: https://www.geogroup.com
-    description: >-
-      GEO Secure Services designs, builds, finances and operates secure
-      correctional and ICE detention facilities under contracts with federal,
-      state and international government agencies. No public developer API,
-      OpenAPI spec, data feed, or inmate-locator API is published; all
-      facility-level information flows are private contract integrations with
-      the contracting agency.
-    tags:
-      - Corrections
-      - Private Prisons
-      - Immigration Detention
-    properties:
-      - type: Website
-        url: https://www.geogroup.com
-      - type: Documentation
-        url: https://www.geogroup.com/About-Us
-      - type: Customers
-        url: https://www.geogroup.com/Services
-  - aid: geo-group:geo-care
-    name: GEO Care
-    humanURL: https://www.geogroup.com
-    description: >-
-      GEO Care delivers community-based reentry, residential treatment,
-      cognitive behavioral programming, substance-abuse treatment and
-      non-residential supervision through GEO Reentry Services and partner
-      facilities. Reported scale on the corporate website is roughly 31,500
-      daily participants in evidence-based programs. No public developer API
-      is published.
-    tags:
-      - Corrections
-      - Reentry
-      - Behavioral Health
-    properties:
-      - type: Website
-        url: https://www.geogroup.com
-      - type: Documentation
-        url: https://www.geogroup.com/Services
-  - aid: geo-group:geo-transport
-    name: GEO Transport
-    humanURL: https://www.geogroup.com
-    description: >-
-      GEO Transport Inc. provides secure transportation services for detainees
-      and inmates between facilities, courts and removal flights, primarily
-      under federal contract. No public developer API is published.
-    tags:
-      - Corrections
-      - Transportation
-    properties:
-      - type: Website
-        url: https://www.geogroup.com
   - aid: geo-group:bi-incorporated
     name: BI Incorporated
     humanURL: https://bi.com
