@@ -47,7 +47,7 @@ tags:
   - Public Company
 url: >-
   https://raw.githubusercontent.com/api-evangelist/geo-group/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: geo-group:bi-incorporated
     name: BI Incorporated
