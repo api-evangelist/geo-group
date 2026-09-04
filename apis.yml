@@ -48,7 +48,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geo-group.
 access: 3rd-Party
 created: '2026-05-23'
 modified: '2026-07-25'
-position: Consumer
+position: Consuming
 tags:
   - Corrections
   - Private Prisons
