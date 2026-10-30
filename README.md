@@ -64,83 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The GEO Group, Inc. (NYSE: **GEO**) is a publicly traded private corrections and community supervision company headquartered in Boca Raton, Florida. Founded in 1984 as Wackenhut Corrections Corporation (WCC), the company rebranded to its current name in 2004 after management repurchased the holdings of G4S. As of September 2024, GEO Group "owned or managed 80,000 beds at 99 facilities, making it the largest prison operator in the United States" and reported $2.424 billion in revenue for fiscal year 2024 (Wikipedia, GEO Group). The company also operates internationally in Australia, the United Kingdom and South Africa, and its own corporate site reports 95 facilities worldwide and approximately 20,000 employees (geogroup.com).
+The GEO Group, Inc. (NYSE: GEO) is a publicly traded private corrections and community supervision company headquartered in Boca Raton, Florida. Founded in 1984 as Wackenhut Corrections Corporation and rebranded in 2004, it is the largest private prison operator in the United States and a primary contractor to U.S. Immigration and Customs Enforcement (ICE), the U.S. Marshals Service, the Federal Bureau of Prisons, and numerous state departments of corrections. As of 2024 the company owned or managed approximately 80,000 beds across roughly 99 facilities and reported $2.424 billion in revenue. Its wholly owned subsidiary BI Incorporated operates the federal Intensive Supervision Appearance Program (ISAP) and builds the ankle monitors, GPS trackers, voice-verification systems and SmartLINK smartphone app used to monitor people in immigration proceedings and community supervision. GEO Group publishes no public developer API and has no GitHub presence; the only "platform" surfaces it exposes are customer-facing operational systems (BI TotalAccess for officers, BI SmartLINK for supervised individuals) used inside its own contracts. This repository documents the corporate footprint, the technology subsidiary, and the public-record controversies surrounding the firm under the second Trump administration's 2025+ ICE detention expansion, for purposes of the API Evangelist network's coverage of API absence in sensitive sectors.
 
-This repository is part of the [API Evangelist Network](https://github.com/api-evangelist). It exists to document a major federal contractor's complete absence of a public API surface, in line with the network's coverage of sensitive sectors where opacity is itself a policy choice.
+**Areas:** Corrections · Private Prisons · Immigration Detention · Electronic Monitoring · Surveillance · Public Company
 
-## What GEO Group does
+## The GEO Group on APIs.io
 
-GEO operates through two primary divisions and a technology subsidiary:
+Everything profiled for The GEO Group is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/geo-group/](https://apis.io/providers/geo-group/)** — or go straight to one of the APIs or properties below.
 
-- **GEO Secure Services** designs, builds, finances and operates secure correctional and ICE detention facilities under contracts with federal, state and international government agencies. In 2019, federal-government agencies generated 53% of the company's revenue.
-- **GEO Care** delivers community-based residential reentry, "temporary housing, cognitive behavioral treatment, substance abuse treatment," electronic monitoring, and post-release case-management services. The corporate website reports approximately 31,500 daily participants in evidence-based programs.
-- **GEO Transport Inc.** provides secure detainee and inmate transportation, including ICE removal staging.
-- **BI Incorporated**, acquired by GEO in 2011, is the electronic-monitoring technology subsidiary and the operator of ICE's Intensive Supervision Appearance Program (ISAP).
+### APIs (1)
 
-## BI Incorporated — the technology arm
+- [BI Incorporated](https://apis.io/apis/geo-group/bi-incorporated/) — BI Incorporated, acquired by GEO Group in 2011, is the technology subsidiary that builds and operates the electronic monitoring stack used across community…
 
-BI Incorporated, headquartered in Boulder, Colorado, is GEO's electronic-monitoring subsidiary and the primary contractor for ICE's ISAP program. Its product portfolio is the closest thing GEO Group has to a "platform," but it is sold to supervising agencies, not to developers, and none of it exposes a documented public API:
+### Published properties
 
-| Product | Function |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Geo Group Domain Security](https://apis.io/security/geo-group/geo-group-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.geogroup.com)
+- [Blog](https://www.geogroup.com/geo-news/)
+
+## API Evangelist rating
+
+**Kin Score 8.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| **BI VeriWatch 2** | Wrist-worn GPS device with "one minute location acquisition" |
-| **BI SmartLINK** | Smartphone monitoring app for supervised clients, used widely in ISAP |
-| **BI SmartBAND 1.0** | Bluetooth Low Energy wearable paired with SmartLINK as a "wireless tether" |
-| **BI HomeGuard 20\|20** | Radio-frequency home monitoring base/anklet system |
-| **BI SoberTech** | Handheld alcohol-detection breathalyzer |
-| **BI TotalAccess** | Officer case-management web platform "consolidating data in one online platform" |
-| **BI Agency Assist** | Centralized administrative back-office for probation and parole agencies |
+| Discoverability | 58.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 0.0 |
 
-People supervised on ISAP interact with GEO's software whether or not they consented in any meaningful sense; supervising officers interact with BI TotalAccess. There is no third-party developer API, no OpenAPI spec, no SDK, no GitHub organization, and no public schema for any of this telemetry.
+**Agent readiness 0.0** — human-only
 
-## API surface — none
-
-| Surface | Status |
+| Agent-readiness dimension | Result |
 |---|---|
-| Public developer API | **None** |
-| OpenAPI / AsyncAPI spec | **None** |
-| GitHub organization | **None** (the GitHub handle `geogroup` belongs to an unrelated Chinese academic researcher) |
-| SDKs / CLIs | **None** |
-| Inmate / detainee locator API | **None** (contrast: U.S. Bureau of Prisons publishes a web inmate locator) |
-| Facility data feed | **None** |
-| Status page | **None** |
-| Public changelog | **None** |
-| Webhooks | **None** |
-| RSS / Atom feed | **None** beyond press-release page |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-Because there is no real machine-readable surface, this repository contains only `apis.yml` and this README. No `openapi/`, `capabilities/`, `json-schema/`, `examples/`, `rules/`, `plans/`, `rate-limits/` or `finops/` directories are present, per the API Evangelist Network rule against placeholder artifacts.
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Why this profile exists — the controversy ledger
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/geo-group/](https://apis.io/providers/geo-group/).
 
-GEO Group is a publicly-listed firm whose revenue depends almost entirely on federal and state incarceration and immigration-detention contracts. Documenting it in the API Evangelist Network is a deliberate choice: in 2025+ the U.S. federal government has dramatically expanded ICE detention capacity, and GEO is one of the two firms (alongside CoreCivic) absorbing that expansion. The absence of an API is not a neutral fact; it is the operating condition that lets a private operator hold tens of thousands of people in federal custody without machine-readable accountability.
+## How this profile is made
 
-Documented controversies (sourced from Wikipedia's GEO Group article and contemporary reporting):
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- **Detainee labor / wage litigation (Washington State).** A jury awarded detainees at the Northwest ICE Processing Center in Tacoma "$17.3 million" in compensation and the State of Washington "$5.9 million" over violations of state minimum-wage law in the facility's "Voluntary Work Program" (where ICE detainees were paid $1/day).
-- **Threats of solitary for refusing unpaid work.** A 2014 lawsuit alleged immigrant detainees were "threatened with solitary confinement if they refused to work without pay," later expanding into class-action litigation covering roughly 60,000 current and former detainees.
-- **Walnut Grove / Mississippi.** GEO lost Mississippi contracts following a 2012 settlement over conditions at Walnut Grove Youth Correctional Facility, with related federal investigations examining "kickback and bribery schemes."
-- **Deaths in custody.** Multiple in-custody deaths at GEO-operated ICE facilities (including Adelanto, CA and the Northwest ICE Processing Center) have prompted DHS Office of Inspector General reports and federal lawsuits over inadequate medical care.
-- **Trump 2.0 expansion.** In February 2025 GEO announced plans to reopen **Delaney Hall** in Newark, New Jersey, as an ICE detention facility with capacity for 1,000 people — one of the first publicly announced reactivations under the second Trump administration's mass-detention buildout.
-- **ISAP scale.** Through BI Incorporated, GEO operates the federal program that places tens of thousands of immigrants on ankle monitors, GPS, voice verification or the SmartLINK app while their cases proceed — a parallel surveillance footprint to physical detention, again with no public reporting API.
-- **Lobbying and political donations.** GEO has been a consistent direct corporate donor to federal campaigns and a sustained federal lobbying spender — atypical for a firm of its size and a longstanding focus of divestment campaigns.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for The GEO Group: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Structure of this repository
+## Open an issue
 
-```
-geo-group/
-├── apis.yml      ← Index entry for the API Evangelist Network
-└── README.md     ← This file
-```
-
-No artifact subfolders are present, because GEO Group publishes no machine-readable artifacts. If that ever changes — if GEO or BI ever publishes an OpenAPI spec for a customer-facing portal, or if an ICE detention-data API is mandated by Congress — this repository will be the place to land it.
-
-## Sources
-
-- The GEO Group corporate site — https://www.geogroup.com
-- The GEO Group "About Us" — https://www.geogroup.com/About-Us
-- BI Incorporated — https://bi.com
-- Wikipedia: The GEO Group — https://en.wikipedia.org/wiki/GEO_Group
-
-## Maintainer
-
-Kin Lane — [kin@apievangelist.com](mailto:kin@apievangelist.com)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/geo-group/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
